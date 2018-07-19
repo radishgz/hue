@@ -81,14 +81,6 @@ desktop.log.fancy_logging()
 LANGUAGE_CODE = 'zh_CN'
 
 LANGUAGES = [
-  ('de', _('German')),
-  ('en-us', _('English')),
-  ('es', _('Spanish')),
-  ('fr', _('French')),
-  ('ja', _('Japanese')),
-  ('ko', _('Korean')),
-  ('pt', _('Portuguese')),
-  ('pt_BR', _('Brazilian Portuguese')),
   ('zh_CN', _('Simplified Chinese')),
 ]
 
@@ -97,7 +89,7 @@ SITE_ID = 1
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
 #USE_I18N = True
-USE_I18N = False
+USE_I18N = True
 
 # If you set this to False, Django will not format dates, numbers and
 # calendars according to the current locale.
